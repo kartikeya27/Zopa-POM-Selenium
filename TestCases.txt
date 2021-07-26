@@ -1,0 +1,26 @@
+(1) Username and password fileds are empty.
+    expected error message :----Epic sadface: Username is required.
+
+(2) Username field is empty and password field is secret_sauce
+    expected error message :----Epic sadface: Username is required.
+    
+(3) Username field is standard_user and password field is emty.
+    expected error message :----Epic sadface: Password is required.
+
+(4) Username field is locked_out_user and password field is secret_sauce.
+    expected error message :----Epic sadface: Sorry, this user has been locked out.
+    
+(5) Username field is Tes123 and password field is secret_sauce.
+    expected error message :----Epic sadface: Username and password do not match any user in this service.
+    
+(6) Username field is standard_user and password field is test123.
+    expected error message :----Epic sadface: Username and password do not match any user in this service.
+    
+(7) Username field is standard_user and password field is secret_sauce.
+    expected result:---successfully landed on homepage with product logo.
+    
+(8) Username field is problem_user and password field is secret_sauce.
+    expected result:---successfully landed on homepage with product logo.
+    
+(9) Username field is performance_glitch_user and password field is secret_sauce.
+    expected result:---successfully landed on homepage with product logo.
