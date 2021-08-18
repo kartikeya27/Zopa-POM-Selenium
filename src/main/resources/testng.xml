@@ -10,8 +10,7 @@
 
 	<test name="App Test Cases">
 		<classes>
-			<class name="com.qa.tests.IncorrectLoginPageTest"></class>
-			<class name="com.qa.tests.CorrectLoginPageTest"></class>
+			<class name="com.qa.tests.LoanRegistrationTest"></class>
 		</classes>
 	</test>
 </suite>

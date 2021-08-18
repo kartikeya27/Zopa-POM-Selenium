@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.log4testng.Logger;
 
 import com.qa.util.DataUtil;
@@ -20,6 +21,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 public class TestBase {
 
 	public static WebDriver driver;
+	public static WebDriverWait wait;
 	private static Logger log = Logger.getLogger(TestBase.class);
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
